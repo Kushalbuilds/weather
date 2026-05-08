@@ -83,7 +83,10 @@ export default function App() {
 
   return (
     <div className="app-container">
-      <WeatherBackground condition={weather?.weather[0].main} />
+      <WeatherBackground 
+        condition={weather?.weather[0].main} 
+        icon={weather?.weather[0].icon} 
+      />
       <div className="content-wrapper">
         <CitySearch 
           city={city} 
