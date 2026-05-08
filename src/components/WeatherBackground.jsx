@@ -1,3 +1,6 @@
+import React from 'react';
+import { motion } from 'framer-motion';
+
 export default function WeatherBackground({ condition, icon }) {
   const isCloudy = condition?.toLowerCase().includes('cloud');
   const isRainy = condition?.toLowerCase().includes('rain') || condition?.toLowerCase().includes('drizzle');
