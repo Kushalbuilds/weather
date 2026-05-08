@@ -15,7 +15,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--bg-color);
+  background-color: #0f172a;
   color: var(--text-primary);
   display: flex;
   justify-content: center;
@@ -26,7 +26,7 @@ body {
   width: 100%;
   max-width: 500px;
   min-height: 100vh;
-  padding: 16px;
+  padding: 24px 16px 40px 16px;
   background: transparent;
   position: relative;
   z-index: 1;
@@ -428,11 +428,11 @@ body {
 }
 
 .day-theme {
-  background: linear-gradient(180deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(180deg, #1e3a8a 0%, #3b82f6 100%);
 }
 
 .night-theme {
-  background: linear-gradient(180deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  background: linear-gradient(180deg, #020617 0%, #0f172a 100%);
 }
 
 .stars-container {
